@@ -1,0 +1,28 @@
+.partners {
+    margin-bottom: 90px;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.partners__item {
+    max-width: 160px;
+    margin-bottom: 60px;
+    margin-right: 90px;
+}
+
+.partners__item:last-child {
+    margin-right: 0;
+}
+
+.partners__link img {
+    filter: grayscale(1);
+    transition: filter .3s;
+}
+
+.partners__link:hover img {
+    filter: grayscale(0);
+}

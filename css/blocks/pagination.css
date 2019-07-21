@@ -1,0 +1,69 @@
+/* Пагинация */
+
+.pagination {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-left: 30px;
+}
+
+.pagination__display {
+    font-size: 14px;
+    color: #656464;
+    font-family: 'Roboto';
+}
+
+.pagination__controlls {
+    margin-left: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.pagination__prev {
+    background-image: url('../../img/main_page/pagination/prev.png');
+    width: 6px;
+    height: 10px;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+}
+
+.pagination__pages-list {
+    margin: 0;
+    display: flex;
+}
+
+.pagination__pages-link:hover {
+    color: #ae2264;
+}
+
+.pagination__pages-item {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination__pages-link {
+    color: #221f1f;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.current {
+    background-color: #27273e;
+    color: #ec1e79;
+    border-radius: 5px;
+}
+
+.pagination__next {
+    background-image: url('../../img/main_page/pagination/next.png');
+    width: 6px;
+    height: 10px;
+    margin-left: 18px;
+    background-repeat: no-repeat;
+}

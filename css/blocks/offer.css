@@ -1,0 +1,20 @@
+.offer {
+    width: 100%;
+    font-size: 18px;
+    background-color: #27273e;
+    background-image: url('../../img/!.png');
+    margin-bottom: 60px;
+}
+
+.offer__content {
+    max-width: 700px;
+    padding: 50px 30px;
+    color: #ffffff;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.offer__content b, strong {
+    color: #ec1e79;
+    font-weight: 700;
+}

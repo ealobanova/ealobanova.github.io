@@ -1,0 +1,20 @@
+.header {
+    width: 100%;
+    min-height: 77px;
+    background-color: #27273e;
+    margin-bottom: 65px;
+}
+
+.header__container {
+    padding: 13px 0;
+}
+
+.header__left-info {
+    width: 49%;
+}
+
+.header__right-info {
+    width: 50%;
+    text-align: right;
+    font-weight: bold;
+}

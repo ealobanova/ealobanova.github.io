@@ -1,0 +1,70 @@
+/* Особенности*/
+
+.features {
+    margin-bottom: 85px;
+}
+
+.features__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.features__item {
+    width: 25%;
+    text-align: center;
+    margin-left: 45px;
+}
+
+.features__logo {
+    width: 35%;
+    height: 30%;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-bottom: 30px;
+}
+
+.flower {
+    background: url('../../img/main_page/features/flower.png') no-repeat 50% 50% #27273e;
+}
+
+.star {
+    background: url('../../img/main_page/features/mark-as-favorite-star.png') no-repeat 50% 50% #27273e;
+}
+
+.pallete {
+    background: url('../../img/main_page/features/painter-palette.png') no-repeat 50% 50% #27273e;
+}
+
+.features__title {
+    color: #212121;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.88px;
+    margin-bottom: 30px;
+}
+
+.features__block {
+    color: #221f1f;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.features__text {
+    margin-bottom: 18px;
+}
+
+.features__plus {
+    padding-left: 15px;
+}
+
+.features__item-text:before {
+    color: #cc3366;
+    content: "•";
+    padding-right: 30px;
+}
+
+.features__item-text {
+    text-align: left;
+}

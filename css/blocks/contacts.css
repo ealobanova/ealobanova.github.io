@@ -1,0 +1,15 @@
+.contacts__phone {
+    font-size: 21px;
+    font-style: normal;
+}
+
+.contacts__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contacts__schedule {
+    color: #ec1e79;
+    font-size: 14px;
+    opacity: 0.7;
+}

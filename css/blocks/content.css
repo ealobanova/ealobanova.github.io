@@ -1,0 +1,59 @@
+/* Новости, отзывы */
+
+.content__item {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.content__pic {
+    width: 160px;
+    height: 160px;
+}
+
+.content__pic--no-photo {
+    background: url('../../img/comments/elena.png') no-repeat 50% 50% #f5f5f5;
+    border-radius: 50%;
+}
+
+.content__item:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.content__ava {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content__desc {
+    padding-left: 20px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.content__date {
+    color: #656464;
+    font-family: "Roboto Light";
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.content__title {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.content__text {
+    color: #221f1f;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+}

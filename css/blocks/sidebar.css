@@ -1,0 +1,68 @@
+.sidebar {
+    width: 20%;
+    align-self: flex-start;
+}
+
+.menu__item {
+    margin-bottom: 40px;
+}
+
+.menu__item:last-child {
+    margin-bottom: 0;
+}
+
+.menu__text:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 34%;
+    height: 18px;
+    padding-right: 20px;
+    background: no-repeat center center;
+}
+
+.menu__text {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ec1e79;
+    text-decoration: none;
+}
+
+.menu__text--icon--main:before {
+    background-image: url('../../img/main_page/sidebar/main-icon.png');
+}
+
+.menu__text--icon--main:hover:before {
+    background-image: url('../../img/main_page/sidebar/main-icon-black.png');
+}
+
+.menu__text--icon--wallet:before {
+    background-image: url('../../img/main_page/sidebar/wallet-icon.png');
+}
+
+.menu__text--icon--wallet:hover:before {
+    background-image: url('../../img/main_page/sidebar/wallet-icon-black.png');
+}
+
+.menu__text--icon--feed:before {
+    background-image: url('../../img/main_page/sidebar/feed-icon.png');
+}
+
+.menu__text--icon--feed:hover:before {
+    background-image: url('../../img/main_page/sidebar/feed-icon-black.png');
+}
+
+.menu__text--active.menu__text--icon--main:before {
+    background-image: url('../../img/main_page/sidebar/main-icon-black.png');
+    text-decoration: underline;
+}
+
+.menu__text:hover {
+    color: #000;
+}
+
+.menu__text--active {
+    color: #000;
+}
