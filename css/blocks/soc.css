@@ -1,0 +1,67 @@
+.soc__text {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.soc__list {
+    display: flex;
+    margin-top: 9px;
+}
+
+.soc__list-item {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 6px;
+    transition: .3s;
+}
+
+.soc__list-item:last-child {
+    margin-right: 0;
+}
+
+.soc__list-item:hover {
+    background-color: #ec1e79;
+}
+
+.soc__list-item-logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.soc__list-item--vk {
+    background-image: url('../../img/main_page/footer/vk.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.soc__list-item--fb {
+    background-image: url('../../img/main_page/footer/fb.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.soc__list-item--google {
+    background-image: url('../../img/main_page/footer/google.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.soc__list-item--tw {
+    background-image: url('../../img/main_page/footer/twitter.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.soc__list-item--mail {
+    background-image: url('../../img/main_page/footer/mail.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.soc--center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

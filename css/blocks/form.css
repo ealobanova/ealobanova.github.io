@@ -50,18 +50,18 @@
     padding: 15px 10px 15px 10px;
     width: 270px;
     border-radius: 3px;
-    border: 0 solid;
-    outline-color: transparent;
+    border: 2px solid transparent;
+    outline: none;
+}
+
+.form__input:focus {
+    border-color: #ec1e79;
 }
 
 .form__textarea {
     resize: none;
     min-height: 90px;
     width: 560px;
-}
-
-.form__input:focus {
-    outline-color: #ec1e79;
 }
 
 .form__radio,

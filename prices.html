@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="id=edge">
-    <meta name="viewport" content="width=1100, initial-scale=1.0">
-    <title>Отзывы</title>
+    <meta name="viewport" content="width=1200, initial-scale=1.0">
+    <title>Тарифы</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -28,6 +28,14 @@
                             </address>
                             <div class="contacts__timing">
                                 <a href="#" class="contacts__schedule">График работы</a>
+                                <div class="contacts__window">
+                                    <div class="contacts__window-up-text">
+                                        пн-вс: 09:00-20:00
+                                    </div>
+                                    <div class="contacts__window-down-text">
+                                        обед: 14:00-14:30
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -38,34 +46,99 @@
             <div class="container">
 
                 <aside class="sidebar">
-                    <nav class="menu">
+                    <section class="partners partners--space--between--item">
+                        <h2 class="title title--partners">Партнёры</h2>
+                        <ul class="partners__list">
+                            <li class="partners__item">
+                                <a class="partners__link" href='#'>
+                                    <img src="./img/partners/logo-1.png" alt="Партнёр 1" class="partners__img">
+                                </a>
+                            </li>
+
+                            <li class="partners__item">
+                                <a class="partners__link" href='#'>
+                                    <img src="./img/partners/logo-2.png" alt="Партнёр 2" class="partners__img">
+                                </a>
+                            </li>
+
+                            <li class="partners__item">
+                                <a class="partners__link" href='#'>
+                                    <img src="./img/partners/logo-3.png" alt="Партнёр 3" class="partners__img">
+                                </a>
+                            </li>
+
+                            <li class="partners__item">
+                                <a class="partners__link" href='#'>
+                                    <img src="./img/partners/logo-4.png" alt="Партнёр 4" class="partners__img">
+                                </a>
+                            </li>
+
+                            <li class="partners__item">
+                                <a class="partners__link" href='#'>
+                                    <img src="./img/partners/logo-5.png" alt="Партнёр 5" class="partners__img">
+                                </a>
+                            </li>
+
+                            <li class="partners__item">
+                                <a class="partners__link" href='#'>
+                                    <img src="./img/partners/logo-6.png" alt="Партнёр 6" class="partners__img">
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <div class="soc soc--center">
+                        <div class="soc__text">
+                            <b>Наши социальные сети</b>
+                        </div>
+
+                        <ul class="soc__list">
+                            <li class="soc__list-item soc__list-item--vk">
+                                <a href="/" class="soc__list-item-logo"></a>
+                            </li>
+                            <li class="soc__list-item soc__list-item--fb">
+                                <a href="/" class="soc__list-item-logo"></a>
+                            </li>
+                            <li class="soc__list-item soc__list-item--google">
+                                <a href="/" class="soc__list-item-logo"></a>
+                            </li>
+                            <li class="soc__list-item soc__list-item--tw">
+                                <a href="/" class="soc__list-item-logo"></a>
+                            </li>
+                            <li class="soc__list-item soc__list-item--mail">
+                                <a href="/" class="soc__list-item-logo"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </aside>
+                <main class="maincontent">
+                    <nav class="menu menu--row menu--row--black">
                         <ul class="menu__list">
                             <li class="menu__item">
-                                <a href="./index.html" class="menu__text menu__text--active menu__text--icon--main">Главная</a>
+                                <a href="./coworking.html" class="menu__text menu__text--icon--main">Главная</a>
                             </li>
                             <li class="menu__item">
                                 <a href="./comments.html" class="menu__text menu__text--icon--feed">Отзывы</a>
                             </li>
                             <li class="menu__item">
-                                <a href="./prices.html" class="menu__text menu__text--icon--wallet">Тарифы</a>
+                                <a href="./prices.html" class="menu__text menu__text--active menu__text--icon--wallet">Тарифы</a>
                             </li>
                         </ul>
                     </nav>
-                </aside>
-                <main class="maincontent">
-                    <nav class="breadcrumbs">
+                    <!-- <nav class="breadcrumbs">
                         <ul class="breadcrumbs__list">
                             <li class="breadcrumbs__item">
-                                <a href="./index.html" class="breadcrumbs__link breadcrumbs__link--unactive">Главная</a>
+                                <a href="./coworking.html" class="breadcrumbs__link">Главная</a>
                             </li>
                             <li class="breadcrumbs__item">
-                                <a href="#" class="breadcrumbs__link">Тарифы</a>
+                                <a href="#" class="breadcrumbs__link breadcrumbs__link--active">Тарифы</a>
                             </li>
                         </ul>
-                    </nav>
+                    </nav> -->
 
                     <section class="content">
-                        <h2 class="title">Тарифы</h2>
+                        <h2 class="title title--little--margin">Тарифы</h2>
                         <div class="prices">
                             <ul class="prices__list">
                                 <li class="prices__item">
@@ -151,46 +224,6 @@
                             </ul>
                         </div>
                     </section>
-                    <section class="partners">
-                        <h2 class="title">Партнёры</h2>
-                        <ul class="partners__list">
-                            <li class="partners__item">
-                                <a class="partners__link" href='#'>
-                                    <img src="./img/partners/logo-1.png" alt="Партнёр 1" class="partners__img">
-                                </a>
-                            </li>
-
-                            <li class="partners__item">
-                                <a class="partners__link" href='#'>
-                                    <img src="./img/partners/logo-2.png" alt="Партнёр 2" class="partners__img">
-                                </a>
-                            </li>
-
-                            <li class="partners__item">
-                                <a class="partners__link" href='#'>
-                                    <img src="./img/partners/logo-3.png" alt="Партнёр 3" class="partners__img">
-                                </a>
-                            </li>
-
-                            <li class="partners__item">
-                                <a class="partners__link" href='#'>
-                                    <img src="./img/partners/logo-4.png" alt="Партнёр 4" class="partners__img">
-                                </a>
-                            </li>
-
-                            <li class="partners__item">
-                                <a class="partners__link" href='#'>
-                                    <img src="./img/partners/logo-5.png" alt="Партнёр 5" class="partners__img">
-                                </a>
-                            </li>
-
-                            <li class="partners__item">
-                                <a class="partners__link" href='#'>
-                                    <img src="./img/partners/logo-6.png" alt="Партнёр 6" class="partners__img">
-                                </a>
-                            </li>
-                        </ul>
-                    </section>
                 </main>
             </div>
 
@@ -210,30 +243,6 @@
                     <img class="logo__pic" src="./img/main_page/logo.png" alt="Логотип">
                 </a>
             </div>
-            <div class="soc">
-                <div class="soc__text">
-                    <b>Наши социальные сети</b>
-                </div>
-
-                <ul class="soc__list">
-                    <li class="soc__list-item soc__list-item--vk">
-                        <a href="/" class="soc__list-item-logo"></a>
-                    </li>
-                    <li class="soc__list-item soc__list-item--fb">
-                        <a href="/" class="soc__list-item-logo"></a>
-                    </li>
-                    <li class="soc__list-item soc__list-item--google">
-                        <a href="/" class="soc__list-item-logo"></a>
-                    </li>
-                    <li class="soc__list-item soc__list-item--tw">
-                        <a href="/" class="soc__list-item-logo"></a>
-                    </li>
-                    <li class="soc__list-item soc__list-item--mail">
-                        <a href="/" class="soc__list-item-logo"></a>
-                    </li>
-                </ul>
-            </div>
-
         </div>
     </footer>
 

@@ -12,16 +12,17 @@
 }
 
 .breadcrumbs__link {
-    color: #979696;
-    opacity: 0.8;
+    color: #ec1e79;
     font-weight: 400;
     font-style: italic;
-    text-decoration: none;
+    text-decoration: underline;
+    cursor: text;
 }
 
-.breadcrumbs__link--unactive {
-    color: #ec1e79;
-    text-decoration: underline;
+.breadcrumbs__link--active {
+    color: #979696;
+    opacity: 0.8;
+    text-decoration: none;
 }
 
 .breadcrumbs__item:after {

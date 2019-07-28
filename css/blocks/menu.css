@@ -1,0 +1,118 @@
+.menu__item {
+    margin-bottom: 40px;
+}
+
+.menu__item:last-child {
+    margin-bottom: 0;
+}
+
+.menu__text:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    background: no-repeat center center;
+}
+
+.menu__text {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ec1e79;
+    text-decoration: none;
+}
+
+.menu__text--icon--main:before {
+    background: url('../../img/sprite/sprite-nav.png') -495px 50px;
+    width: 20px;
+    height: 20px;
+    transition: .014s;
+}
+
+.menu__text--icon--main:hover:before {
+    background: url('../../img/sprite/sprite-nav.png') -500px -350px;
+}
+
+.menu__text--icon--wallet:before {
+    background: url('../../img/sprite/sprite-nav.png') -5px -5px;
+    width: 20px;
+    height: 20px;
+    transition: .014s;
+}
+
+.menu__text--icon--wallet:hover:before {
+    background: url('../../img/sprite/sprite-nav.png') -34px -5px;
+}
+
+.menu__text--icon--feed:before {
+    background: url('../../img/sprite/sprite-nav.png') -5px -85px;
+    width: 20px;
+    height: 20px;
+    transition: .014s;
+}
+
+.menu__text--icon--feed:hover:before {
+    background: url('../../img/sprite/sprite-nav.png') -35px -85px;
+}
+
+.menu__text--active.menu__text--icon--main:before {
+    background: url('../../img/sprite/sprite-nav.png') -65px -85px;
+    text-decoration: underline;
+}
+
+.menu__text--active.menu__text--icon--feed:before {
+    background: url('../../img/sprite/sprite-nav.png') -35px -85px;
+    text-decoration: underline;
+}
+
+.menu__text--active.menu__text--icon--wallet:before {
+    background: url('../../img/sprite/sprite-nav.png') -34px -5px;
+    text-decoration: underline;
+}
+
+.menu__text:hover,
+.menu__text--active {
+    color: #000000;
+}
+
+
+/* модификаторы */
+
+.menu--row .menu__list {
+    display: flex;
+}
+
+.menu--row .menu__item {
+    margin-right: 90px;
+    margin-bottom: 30px;
+}
+
+.menu--row .menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu--color .menu__text--active,
+.menu--color .menu__text:hover {
+    color: #ffffff;
+}
+
+.menu--row--black .menu__text--active.menu__text--icon--feed:before {
+    background: url('../../img/sprite/spriteblack.png') -35px -85px;
+}
+
+.menu--row--black .menu__text--icon--main:hover:before {
+    background: url('../../img/sprite/spriteblack.png') -497px -353px;
+}
+
+.menu--row--black .menu__text--icon--wallet:hover:before {
+    background: url('../../img/sprite/spriteblack.png') -34px -653px;
+}
+
+.menu--row--black .menu__text--icon--feed:hover:before {
+    background: url('../../img/sprite/spriteblack.png') -35px -301px;
+}
+
+.menu--row--black .menu__text--active.menu__text--icon--wallet:before {
+    background: url('../../img/sprite/spriteblack.png') -33px -58px;
+}

@@ -2,9 +2,20 @@
     font-size: 49px;
     font-weight: bold;
     color: #221f1f;
-    margin-bottom: 35px;
+    margin-bottom: 73px;
 }
 
 .title--form {
     margin-bottom: 30px;
+}
+
+.title--partners {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 25px 50px;
+}
+
+.title--little--margin {
+    margin-bottom: 45px;
 }

@@ -8,8 +8,76 @@
     text-decoration: none;
 }
 
+.contacts__timing {
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    text-decoration: underline;
+}
+
 .contacts__schedule {
     color: #ec1e79;
     font-size: 14px;
     opacity: 0.7;
+}
+
+.contacts__schedule:hover {
+    color: #5dd1f8;
+}
+
+.contacts__timing:hover .contacts__window {
+    opacity: 1;
+    right: 0;
+}
+
+.contacts__window {
+    position: absolute;
+    top: 100%;
+    width: 163px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(23, 59, 117, 0.55);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: lowercase;
+    font-family: "Gotham Pro";
+    text-align: left;
+    right: 0;
+    margin-top: 13px;
+    right: -9999px;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.contacts__window:before {
+    content: "";
+    display: block;
+    border: 10px solid transparent;
+    border-bottom-color: #fff;
+    position: absolute;
+    bottom: 100%;
+    right: 10px;
+}
+
+.contacts__window:after {
+    content: "";
+    display: block;
+    height: 20px;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    background-color: transparent;
+}
+
+.contacts__window-up-text {
+    margin-bottom: 15px;
+    color: #ec1e79;
+}
+
+.contacts__window-down-text {
+    font-weight: 300;
+    color: #221f1f;
+    font-family: "Gotham Pro Light";
 }
